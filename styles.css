@@ -1,0 +1,89 @@
+.body {
+    background-color: midnightblue;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700px;
+    color: aliceblue;
+    text-shadow: 1px 2px 2px whitesmoke;
+    text-align: center;
+}
+
+.circles {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: solid black;
+    border-width: 15px;
+}
+
+.squares {
+    height: 250px;
+    width: 250px;
+    border: 10px solid black;
+}
+
+#first-circle {
+    background-color: royalblue;
+    position: absolute;
+    top: 300px;
+}
+
+#first-square{
+    background-color: crimson;
+    position: relative;
+    left: 390px;
+    top: 540px;
+}
+
+#second-circle {
+    height: 650px;
+    width: 650px;
+    background-color: black;
+    position: relative;
+    left: 630px;
+    bottom: 200px;
+}
+
+#second-square{
+    background-color: orangered;
+    position: relative;
+    left: 1275px;
+    bottom: 400px;
+    border: 10px solid black;
+    border-right: 50px;
+}
+
+#third-circle{
+    background-color: forestgreen;
+    position: relative;
+    left: 1510px;
+    bottom: 1000px;
+}
+
+
+#inner-box {
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+}
+
+#innermost-box {
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 85px;
+    left: 95px;
+}
+
+#ominous text{
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px lavenderblush;
+}
+
